@@ -1,6 +1,6 @@
 # Site settings
 title: slim
-baseurl: "/slim"
+baseurl: ""
 url: "http://syaning.com"
 
 # Build settings
