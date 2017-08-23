@@ -1,7 +1,7 @@
 # Site settings
 title: Abhay Gupta || Mechanical Engineer
 baseurl: ""
-url: "http://abgup.me"
+url: "https://ab12gu.github.io/Portfolio/"
 
 # Build settings
 kramdown:
