@@ -1,6 +1,6 @@
 # Site settings
 title: ABBY
-baseurl: "Portfolio/"
+baseurl: "slim/"
 url: "https://ab12gu.github.io/"
 
 # Build settings
