@@ -1,7 +1,8 @@
-# slim
+# Abhay Gupta
 
-slim is just a slim jekyll theme. [Demo](http://syaning.com/slim).
+This is my personal portfolio!
+Check it out: [Demo](http://abgup.me).
 
-### License
+### Theme License
 
 MIT
