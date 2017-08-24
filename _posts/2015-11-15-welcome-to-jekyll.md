@@ -6,9 +6,9 @@ date:   2017-06-13 19:02:34 +0800
 
 Team Members:
 <ul>
-    <li> [Ryan Shultz][jekyll-docs]</li>
-    <li>Thomas Valentine</li>
-    <li>Abhay Gupta</li>
+    <li> <a href="http://www.linkedin.com/in/ryanschulz46/"> Ryan Shultz]</a></li>
+    <li> <a href="https://www.linkedin.com/in/thomas-valentine-7b6a29110/">Thomas Valentine</a></li>
+    <li> <a href="https://www.linkedin.com/in/abgup/">Abhay Gupta</a></li>
 </ul>
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
