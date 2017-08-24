@@ -6,7 +6,7 @@ date:   2017-06-13 19:02:34 +0800
 
 Team Members:
 <ul>
-    <li> <a href="http://www.linkedin.com/in/ryanschulz46/"> Ryan Shultz]</a></li>
+    <li> <a href="http://www.linkedin.com/in/ryanschulz46/"> Ryan Shultz</a></li>
     <li> <a href="https://www.linkedin.com/in/thomas-valentine-7b6a29110/">Thomas Valentine</a></li>
     <li> <a href="https://www.linkedin.com/in/abgup/">Abhay Gupta</a></li>
 </ul>
