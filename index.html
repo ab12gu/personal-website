@@ -19,7 +19,6 @@ layout: default
 		<ul class="post-list">
 			<li>
 				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-				|| Last Updated: 
 				<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
 			</li>
 			{% endfor %}
