@@ -12,11 +12,11 @@ layout: default
 	</section>
 	<section>
 		<h2 class="smallcap">Portfolio</h2>
-		<ul class="post-list">
 		<p> I have a range of projects from coding, to building, to designing. Here are some of the projects that I have already
 			completed and some that are in progress: </p>
 			
 			{% for post in site.posts limit:5 %}
+		<ul class="post-list">
 			<li>
 				<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
 				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
