@@ -18,8 +18,9 @@ layout: default
 			{% for post in site.posts limit:5 %}
 		<ul class="post-list">
 			<li>
-				<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
 				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+				|| Last Updated: 
+				<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
 			</li>
 			{% endfor %}
 		</ul>
