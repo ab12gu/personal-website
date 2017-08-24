@@ -4,13 +4,18 @@ layout: default
 <div class="home">
 	<section>
 		<h2 class="smallcap">About</h2>
-		<p> I am mechanical engineer that sometimes dabbles in some code. You can check out my <a href="https://github.com/ab12gu">github</a>.</p>
-	</section>
+		<p> I am mechanical engineer that sometimes dabbles in some code. You can check out my 
+			<a href="https://github.com/ab12gu">github</a>.</p>
 		<p> I am currently working full-time at Pentair and am simultaneously completing graduate school in Thermofluids.
-			I could keep talking about my accomplishments on this page, but it would be better to just send you over to my <a href="https://github.com/ab12gu">resume</a>.
+			I could keep talking about my accomplishments on this page, but it would be better to just send you over to 
+			my <a href="https://github.com/ab12gu">resume</a>.
+	</section>
 	<section>
-		<h2 class="smallcap">posts</h2>
+		<h2 class="smallcap">Portfolio</h2>
 		<ul class="post-list">
+		<p> I have a range of projects from coding, to building, to designing. Here are some of the projects that I have already
+			completed and some that are in progress: </p>
+			
 			{% for post in site.posts limit:5 %}
 			<li>
 				<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
