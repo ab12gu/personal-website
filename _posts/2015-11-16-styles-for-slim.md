@@ -1,8 +1,19 @@
 ---
 layout: post
-title:  Styles for slim
-date:   2015-11-16  00:00:00
+title:  Restaurant Pager
+date:   2015-06-08  00:00:00
 ---
+
+Team Members:
+<ul>
+    <li> <a href="http://www.linkedin.com/in/ryanschulz46/"> Drew</a></li>
+    <li> <a href="https://www.linkedin.com/in/thomas-valentine-7b6a29110/">Ben</a></li>
+    <li> Sam </li>
+    <li> <a href="https://www.linkedin.com/in/abgup/">Abhay Gupta</a></li>
+</ul>
+
+
+<!--
 Does this even work?
 
 slim is a simple and beautiful jekyll theme, it has only the essential functions
@@ -70,3 +81,4 @@ var arr = [1, 2, 3, 4, 5];
 var b = arr.map(x => x * x);
 console.log(b);
 ```
+-->
