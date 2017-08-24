@@ -6,9 +6,9 @@ date:   2015-06-08  00:00:00
 
 Team Members:
 <ul>
-    <li> <a href="http://www.linkedin.com/in/ryanschulz46/"> Drew</a></li>
-    <li> <a href="https://www.linkedin.com/in/thomas-valentine-7b6a29110/">Ben</a></li>
-    <li> Sam </li>
+    <li> <a href="https://www.linkedin.com/in/drewazevedo/">Drew Azevedo</a></li>
+    <li> <a href="https://www.linkedin.com/in/benhopner/">Ben Hopner</a></li>
+    <li> <a href="https://www.linkedin.com/in/samuelbertram/">Sam Bertram</a></li>
     <li> <a href="https://www.linkedin.com/in/abgup/">Abhay Gupta</a></li>
 </ul>
 
