@@ -2,8 +2,9 @@
 layout: post
 title:  "Benchtop Centrifuge for Materials Science"
 date:   2017-06-13 19:02:34 +0800
+permalink: Centrifuge
 ---
-
+<p class="post-meta">Jun 13, 2017</p>
 Team Members:
 <ul>
     <li> <a href="http://www.linkedin.com/in/ryanschulz46/"> Ryan Shultz</a></li>

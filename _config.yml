@@ -1,6 +1,6 @@
 # Site settings
-title: Abhay Gupta || Mechanical Engineer
-baseurl: 
+title: Abhay Gupta
+baseurl:
 url: "abgup.me"
 
 # Build settings
@@ -10,5 +10,5 @@ permalink: pretty
 
 # Third-party services
 # just leave blank to disable it
-google_analytics: 
-disqus_shortname: 
+google_analytics:
+disqus_shortname:
