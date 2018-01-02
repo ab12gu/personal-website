@@ -8,17 +8,17 @@ layout: default
 	<section>
 		<h2 class="smallcap">About</h2>
 		<p>  I am mechanical engineer that sometimes dabbles in some code. You can check out my
-			<a href="https://github.com/ab12gu">github</a>.</p>
-		<p> I am currently working full-time at Pentair and am taking some computer engineering courses to increase my software knowledge.
-			I could keep talking about my accomplishments on this page, but it would be better to just send you over to
-			my <a href="https://github.com/ab12gu">resume</a> or my <a href="https://linkedin/in/abgup">linkedin</a>.
+			coding projects at my <a href="https://github.com/ab12gu">github</a>.</p>
+		<p> I am currently working full-time at Pentair Thermal Management focusing
+			on thermal and fluid simulations. Please check out my <a href="Abhay_Resume.pdf">resume</a>
+			or <a href="https://www.linkedin.com/in/abgup/">linkedin</a> for my professional experience.
 	</section>
 	<section>
 		<h2 class="smallcap">Portfolio</h2>
 		<p> I have a range of projects from coding, to building, to designing. Here are some projects that are completed and others
 			that are still in progress: </p>
 		<ul class="post-list">
-			{% for post in site.posts limit:10 %}
+			{% for post in site.my_collection limit:3 %}
 			<li>
 				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 				<div align="left"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
@@ -29,7 +29,7 @@ layout: default
 		<p> Here is a <a href="https://github.com/ab12gu">page</a> for all of my projects. </p>
 	</section>
 	<section>
-		<p><a href="{{ "/archives/" | prepend: site.baseurl }}">view more...</a></p>
+		<p><a href="{{ "/Project-List/" | prepend: site.baseurl }}">view more...</a></p>
 	</section>
 	<section>
 		<h2 class="smallcap">Contact</h2>

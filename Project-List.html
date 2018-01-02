@@ -1,0 +1,33 @@
+---
+layout: page
+title:  Project List
+---
+<section>
+	<h2 class="smallcap">Personal Projects</h2>
+</section>
+
+<section>
+	<ul class="post-list">
+		{% for post in site.my_collection limit:10 %}
+		<li>
+			<time>{{ post.date | date: "%b %d, %Y" }}</time>
+			<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+		</li>
+		{% endfor %}
+	</ul>
+</section>
+
+<section>
+	<h2 class="smallcap">Professional Projects</h2>
+</section>
+
+<section>
+	<ul class="post-list">
+		{% for post in site.categories.professional limit:10 %}
+		<li>
+			<time>{{ post.date | date: "%b %d, %Y" }}</time>
+			<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+		</li>
+		{% endfor %}
+	</ul>
+</section>

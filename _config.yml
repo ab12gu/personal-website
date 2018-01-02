@@ -1,14 +1,19 @@
 # Site settings
 title: Abhay Gupta
 baseurl:
-url: "abgup.me"
+url: "abgup.com"
 
 # Build settings
 kramdown:
   input: GFM
-permalink: pretty
+permalink: none
 
 # Third-party services
 # just leave blank to disable it
 google_analytics:
 disqus_shortname:
+
+# Personal/Academic Project Folder
+collections:
+  professional:
+    output: true
