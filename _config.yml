@@ -15,5 +15,5 @@ disqus_shortname:
 
 # Personal/Academic Project Folder
 collections:
-  professional:
+  my_collection:
     output: true

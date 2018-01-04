@@ -18,7 +18,7 @@ layout: default
 		<p> I have a range of projects from coding, to building, to designing. Here are some projects that are completed and others
 			that are still in progress: </p>
 		<ul class="post-list">
-			{% for post in site.my_collection limit:3 %}
+			{% for post in site.my_collection limit:10 %}
 			<li>
 				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 				<div align="left"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
@@ -38,7 +38,7 @@ layout: default
 			<li>Email: ab18gu@gmail.com</li>
 			<li>Cell: (916) 792-7682</li>
 			<li>Linkedin: https://www.linkedin.com/in/abgup/</li>
-			<li>Pigeon Post: 528 Chapman Ct. Santa Clara, CA 95050</li>
+			<li>Pigeon Post: 529 Chapman Ct. Santa Clara, CA 95050</li>
 		</ul>
 		</p>
 	</section>
