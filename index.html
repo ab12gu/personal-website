@@ -4,6 +4,7 @@ layout: default
 
 <!-- Front page of website -->
 
+
 <div class="home">
 	<section>
 		<h2 class="smallcap">About</h2>
@@ -18,7 +19,21 @@ layout: default
 		<p> I have a range of projects from coding, to building, to designing. Here are some projects that are completed and others
 			that are still in progress: </p>
 		<ul class="post-list">
-			{% for post in site.my_collection limit:10 %}
+			{% for post in site.Personal limit:1 %}
+			<li>
+				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+				<div align="left"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
+				</div>
+			</li>
+			{% endfor %}
+			{% for post in site.Academic limit:1 %}
+			<li>
+				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+				<div align="left"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
+				</div>
+			</li>
+			{% endfor %}
+			{% for post in site.Professional limit:1 %}
 			<li>
 				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 				<div align="left"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>

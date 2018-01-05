@@ -1,14 +1,30 @@
 ---
-layout: page
+layout: post
 title:  Project List
 ---
 <section>
-	<h2 class="smallcap">Personal Projects</h2>
+	<h2 class="smallcap">Personal Projects HELLOS</h2>
 </section>
 
 <section>
 	<ul class="post-list">
-		{% for post in site.my_collection limit:10 %}
+		{% for post in site.Personal limit:10 %}
+		<li>
+			<time>{{ post.date | date: "%b %d, %Y" }}</time>
+			<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+		</li>
+		{% endfor %}
+	</ul>
+</section>
+
+
+<section>
+	<h2 class="smallcap">Professional Projects</h2>
+</section>
+
+<section>
+	<ul class="post-list">
+		{% for post in site.Professional limit:10 %}
 		<li>
 			<time>{{ post.date | date: "%b %d, %Y" }}</time>
 			<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -18,12 +34,12 @@ title:  Project List
 </section>
 
 <section>
-	<h2 class="smallcap">Professional Projects</h2>
+	<h2 class="smallcap">Academic Projects</h2>
 </section>
 
 <section>
 	<ul class="post-list">
-		{% for post in site.categories.professional limit:10 %}
+		{% for post in site.Academic limit:10 %}
 		<li>
 			<time>{{ post.date | date: "%b %d, %Y" }}</time>
 			<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
