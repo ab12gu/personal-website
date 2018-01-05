@@ -13,7 +13,16 @@ permalink: none
 google_analytics:
 disqus_shortname:
 
+
 # Personal/Academic Project Folder
+collections_dir: TESTING
 collections:
-  my_collection:
+  Academic:
     output: true
+    permalink: /:name
+  Personal:
+    output: true
+    permalink: /:name
+  Professional:
+    output: true
+    permalink: /:name
