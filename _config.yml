@@ -15,14 +15,13 @@ disqus_shortname:
 
 
 # Personal/Academic Project Folder
-collections_dir: TESTING
 collections:
-  Academic:
+  research:
     output: true
     permalink: /:name
-  Personal:
+  projects:
     output: true
     permalink: /:name
-  Professional:
+  hobbies:
     output: true
     permalink: /:name

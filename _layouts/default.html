@@ -2,11 +2,19 @@
 <html>
   {% include head.html %}
   <body>
+   <div class="page-content">
     <header class="site-header">
-      <a class="site-title" href="{{ site.baseurl }}/">Abhay Gupta <br> Mechanical Engineer</a>
-      <!--{{ site.title }}-->
+      <a class="site-title">Abhay Gupta</a>
+      <!--
+      <a class="site-title" href="{{ site.baseurl }}/">Abhay Gupta</a>
+      {{ site.title }}-->
     </header>
-    <div class="page-content">
+    <header class="site-bar">
+    <!-- <div class="transbox">
+        {% include navigation.html %}
+    </div>  -->
+      {% include navigation.html %}
+    </header>
       {{ content }}
     </div>
     {% include ga.html %}

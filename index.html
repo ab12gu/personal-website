@@ -1,62 +1,19 @@
 ---
-layout: default
+layout: landing
 ---
 
-<!-- Front page of website -->
+<!-- Landing page of website -->
 
-<div class="home">
-	<div class="transbox">
-	<section>
-		<h2 class="smallcap">About</h2>
-		<p>  I am mechanical engineer that sometimes dabbles in some code. You can check out my
-			coding projects at my <a href="https://github.com/ab12gu">github</a>.</p>
-		<p> I am currently working full-time at Pentair Thermal Management focusing
-			on thermal and fluid simulations. Please check out my <a href="Abhay_Resume.pdf">resume</a>
-			or <a href="https://www.linkedin.com/in/abgup/">linkedin</a> for my professional experience.
-	</section>
-	<section>
-		<h2 class="smallcap">Portfolio</h2>
-		<p> I have a range of projects from coding, to building, to designing. Here are some projects that are completed and others
-			that are still in progress: </p>
-		<ul class="post-list">
-			{% for post in site.Personal limit:1 %}
-			<li>
-				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-				<div align="left"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
-				</div>
-			</li>
-			{% endfor %}
-			{% for post in site.Academic limit:1 %}
-			<li>
-				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-				<div align="left"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
-				</div>
-			</li>
-			{% endfor %}
-			{% for post in site.Professional limit:1 %}
-			<li>
-				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-				<div align="left"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
-				</div>
-			</li>
-			{% endfor %}
-		</ul>
-		<p> Here is a <a href="https://github.com/ab12gu">page</a> for all of my projects. </p>
-	</section>
-	<section>
-		<p><a href="{{ "/Project-List/" | prepend: site.baseurl }}">view more...</a></p>
-	</section>
-	<section>
-		<h2 class="smallcap">Contact</h2>
-		<p> I am always looking forward to striking up a new conversation. I can be reached through the following methods:
-		<ul class="post-list">
-			<li>Email: ab18gu@gmail.com</li>
-			<li>Cell: (916) 792-7682</li>
-			<li>Linkedin: https://www.linkedin.com/in/abgup/</li>
-			<li>Pigeon Post: 529 Chapman Ct. Santa Clara, CA 95050</li>
-		</ul>
-		</p>
-	</section>
-</div>
+<section>
+	<img class="left-img" src="/images/prof_photo.jpg" width="170" height="170">
+	<p> I am a mechanical engineer with a deep understanding of programming techniques. I focus on the interdisplinary side of applying novel computational techniques onto physical problems. </p>
 
-</div>
+	<p>  You can check out my coding projects at my <a href="https://github.com/ab12gu">github</a>, or my <a href="/docs/Abhay_Resume.pdf">resume</a> and <a href="https://www.linkedin.com/in/abgup/">linkedin</a> for my professional experience. </p>
+</section>
+
+<section>
+	<h2 class="smallcap">Current Position</h2>
+	<p> Phd student advised by <a href="https://www.me.washington.edu/facultyfinder/ashis-banerjee">Ashis Banerjee </a>and <a href="https://eigensteve.com">Steve Brunton</a> at University of Washington. My current research focuses on model discrepency reduction for controlling optical tweezers.
+</section>
+
+

@@ -1,4 +1,33 @@
 /**
+ * Horizontal rule
+ */
+hr {
+    width: 30%;
+    border: none;
+    border-top: 1px solid lighten($brand-color, 30%);;
+    margin: $spacing-unit auto;
+}   
+
+div.transbox {
+    margin: 10px;
+    background-color: black;
+    opacity: 0.4;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+  }
+  
+  div.transbox p {
+    margin: 5%;
+    font-weight: normal;
+    color: $text_color;
+  }
+
+  
+/************
+** All formatting below is unknown **
+************/
+
+
+/**
  * Reset some basic elements
  */
 body, h1, h2, h3, h4, h5, h6,
@@ -16,7 +45,7 @@ dl, dd, ol, ul, figure {
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
-    background-image: url("/images/Rockets.jpg");
+    //background-image: $background-image;
     background-position: center center;
     background-color: $background-color;
 }
@@ -171,16 +200,6 @@ td {
 }
 
 
-/**
- * Horizontal rule
- */
-hr {
-    width: 30%;
-    border: none;
-    border-top: 1px solid lighten($brand-color, 30%);;
-    margin: $spacing-unit auto;
-}
-
 
 
 /**
@@ -194,15 +213,3 @@ hr {
     }
 }
 
-div.transbox {
-  margin: 10px;
-  background-color: black;
-  opacity: 0.4;
-  filter: alpha(opacity=80); /* For IE8 and earlier */
-}
-
-div.transbox p {
-  margin: 5%;
-  font-weight: normal;
-  color: $text_color;
-}
