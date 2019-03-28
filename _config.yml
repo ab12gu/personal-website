@@ -16,7 +16,7 @@ disqus_shortname:
 
 # Personal/Academic Project Folder
 collections:
-  research:
+  my_collections:
     output: true
     permalink: /:name
   projects:

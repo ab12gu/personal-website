@@ -2,15 +2,9 @@
 layout: default
 permalink: research.html
 ---
-<h1>Research</h1>
 
-<ul>
-  {% for author in site.research %}
+<h2 class="smallcap" id="center">Graduate Research</h2>
+{% include content.html content="graduate_research"%}
 
-    <li>
-      <h2><a href="{{ author.url }}">{{ author.title }}</a></h2>
-      <h3>{{ author.position }}</h3>
-      <p>{{ author.content | markdownify }}</p>
-    </li>
-  {% endfor %}
-</ul>
+<h2 class="smallcap" id="center">Undergraduate Research</h2>
+{% include content.html content="undergrad_research"%}

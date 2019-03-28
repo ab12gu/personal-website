@@ -11,8 +11,6 @@
     border-bottom: 1px solid $grey-color-light;
 }
 
-
-
 .site-title {
     font-size: 2rem;
     font-weight: 300;
@@ -23,6 +21,24 @@
     &:hover {
         text-decoration: none;
     }
+}
+
+.smallcap {
+    text-transform: lowercase;
+    font-variant: small-caps;
+
+    &::first-letter {
+        text-transform: uppercase;
+    }
+}
+
+#center {
+    padding-top: 20px;
+    text-align: center;
+}
+
+#h2 {
+    font-size: 1.5em
 }
 
 
@@ -51,16 +67,6 @@
         margin-top: $spacing-unit;
     }
 }
-
-.smallcap {
-    text-transform: lowercase;
-    font-variant: small-caps;
-
-    &::first-letter {
-        text-transform: uppercase;
-    }
-}
-
 .post-list > li {
     margin-bottom: $spacing-unit / 4;
 
