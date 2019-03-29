@@ -6,6 +6,4 @@ permalink: optical_tweezers
 picture: /images/research/optical_tweezers.png
 ---
 
-This is a collaboration project with Boeing increase automation in manufacturing.
-
-The results are unknown atm. 
+This project focuses on optimized control of biological cells through model reduction of laser trapping. 
