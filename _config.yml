@@ -13,15 +13,8 @@ permalink: none
 google_analytics:
 disqus_shortname:
 
-
 # Personal/Academic Project Folder
 collections:
   my_collections:
     output: true
-    permalink: /:name
-  projects:
-    output: true
-    permalink: /:name
-  hobbies:
-    output: true
-    permalink: /:name
+    permalink: /:name 
