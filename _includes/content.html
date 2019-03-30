@@ -15,7 +15,7 @@
       <img class="left-img" src={{ item.picture }}>
         <li>
           <div class="smallcap" id="h2"><a href="{{ item.url }}">{{ item.title }}</a></div>
-          <div class="post-meta"><time datetime="{{ item.date | date_to_xmlschema }}" itemprop="datePublished">{{ item.date | date: "%b %d, %Y" }}</time></div>
+          <div class="post-meta"><time datetime="{{ item.date | date_to_xmlschema }}" itemprop="datePublished">{{ item.date | date: "%b. %Y" }}</time></div>
           <p>{{ item.excerpt | markdownify }}</p> 
         </li>
       </span>

@@ -86,13 +86,14 @@ nav a.active {
   float: left;
   padding-right: 10px;
   width: 170px;
-  height: 170px
+  height: 170px;
+  object-fit: cover;
 }
 
 .block {
   clear: left;
   display:block;
-  padding-bottom: 70px;
+  height: 200px;
 }
 
 #reduce_pad {

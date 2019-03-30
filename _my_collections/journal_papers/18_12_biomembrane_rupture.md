@@ -6,4 +6,6 @@ permalink: cellular_automation
 picture: /images/research/cellular_rupture.png
 authors: A.Gupta, G.Reint, I.Gozen, M.Taylor
 publisher: Under Review in Nanoscale
+link: "https://doi.org/10.1101/429548"
+#link: /docs/journal_papers/biomembrane_rupture.pdf
 ---
