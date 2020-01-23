@@ -44,59 +44,7 @@ $on-laptop:        800px;
 		url(https://fonts.googleapis.com/css?family=Cutive+Mono),
         "base",
         "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "nav",
+        "images"
 ;
-
-// navigation bar
-nav {
-    overflow: hidden;
-    padding: 5px;
-    position: relative;
-    color: black;
-    background-color: None;
-  }
-  
-nav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-  nav a:hover {
-  text-decoration: none;
-  background-color: #ddd;
-  color: black;
-}
-
-nav a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-
-.current {
-  color: black;
-}
-
-// images
-
-.left-img {
-  float: left;
-  padding-right: 10px;
-  width: 170px;
-  height: 170px;
-  object-fit: cover;
-}
-
-.block {
-  clear: left;
-  display:block;
-  height: 200px;
-}
-
-#reduce_pad {
-    padding-bottom: 50px !important;
-}
-

@@ -2,7 +2,7 @@
 
 <ul style="list-style-type:none;">
     {% assign count = 0 %}
-  
+
     {% assign sorted = (site.my_collections | sort: 'date') | reverse %}
     {% for item in sorted %}
       {% if item.relative_path contains {{include.param1}} %}

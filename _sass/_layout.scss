@@ -1,12 +1,17 @@
 /**
  * Site header
  */
+
+#reduce_pad {
+    padding-bottom: 50px !important;
+}
+
 .site-header {
     border-bottom: 1px solid $grey-color-light;
     text-align: left;
     padding: 1rem 0;
 }
-
+//needs to move
 .site-bar {
     border-bottom: 1px solid $grey-color-light;
 }
@@ -22,6 +27,13 @@
         text-decoration: none;
     }
 }
+
+.block {
+  clear: left;
+  display:block;
+  height: 200px;
+}
+
 
 .smallcap {
     text-transform: lowercase;
