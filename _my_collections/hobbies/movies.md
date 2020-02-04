@@ -17,3 +17,15 @@ Top Movies List:
 2. Primer
 
 3. The Spectacular Now
+
+4. Beautiful Mind
+
+5. Gladiator (2002)
+
+6. Chicago (2003)
+
+7. Lord of the Rings (2004)
+
+8. Million Dollar Baby (2005)
+
+9. Crash (2006)

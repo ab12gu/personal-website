@@ -6,7 +6,7 @@ permalink: steve_brunton
 picture: /images/advisors/steve_brunton.jpeg
 university: "University of Washington"
 department: "Mechanical Engineering"
-relation: "Phd Advisor"
+relation: "MS Advisor"
 ---
 
 
