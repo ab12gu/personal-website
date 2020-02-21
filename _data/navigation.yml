@@ -6,5 +6,9 @@
   link: /projects.html
 - name: Resume
   link: /resume.html 
+- name: Blog
+  link: /blog.html
+- name: Work
+  link: /work.html
 - name: Hobbies
   link: /hobbies.html
