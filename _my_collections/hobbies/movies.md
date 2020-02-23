@@ -6,19 +6,17 @@ permalink: movies
 picture: /images/hobbies/upstream_color.jpg
 ---
 
-Order by: 
-Scores: Narrative, Acting, Soundtrack
-Rating
+This a comprehensive list of my favorite movies. 
 
 Top Movies List:
 
-1. Upstream Color [Narrative (10) Acting (10) Soundtrack (10)]
+1. Upstream Color (2013)
 
-2. Primer
+2. Primer (2004)
 
-3. The Spectacular Now
+3. The Spectacular Now (2013)
 
-4. Beautiful Mind
+4. Beautiful Mind (2001)
 
 5. Gladiator (2002)
 
