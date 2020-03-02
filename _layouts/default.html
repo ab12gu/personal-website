@@ -15,8 +15,28 @@
     </div>  -->
       {% include navigation.html %}
     </header>
+
+
+    <div class="banner">
+      <video autoplay loop muted class="banner__video" poster="video.jpg">
+        <source src="videos/background/test2.mp4" type="video/mp4">
+      </video>
+    </div>
+
+
+    <style>
+      imag {
+        position: absolute;
+        left: 20px;
+        top: 175px;
+      }
+     </style>
+
+ 
+    <imag>
       {{ content }}
     </div>
     {% include ga.html %}
+    </imag>
   </body>
 </html>

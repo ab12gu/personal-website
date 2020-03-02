@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "Movies"
-date:   2017-06-13 19:02:34 +0800
+date:   2020-02-13 19:02:34 +0800
 permalink: movies
 picture: /images/hobbies/upstream_color.jpg
 ---
 
-This a comprehensive list of my favorite movies. 
+This is a comprehensive list of my favorite movies. 
 
 Top Movies List:
 

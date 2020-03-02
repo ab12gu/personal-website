@@ -14,7 +14,7 @@ $base-line-height: 1.5;
 $spacing-unit:     2rem;
 
 $text-color:       white;
-$background-color: #778899;
+$background-color: black;//#778899;
 $background-image: url("/images/image.png");
 $brand-color:      #00FFFF; //48D1CC; //Hyperlinks
 
@@ -48,3 +48,13 @@ $on-laptop:        800px;
         "nav",
         "images"
 ;
+
+.banner {
+  position: relative;
+  overflow: hidden;
+}
+
+.banner__video {
+  transform: translateX(-18%) translateY(-20%);
+  z-index: -1;
+}
