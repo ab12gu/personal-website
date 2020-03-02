@@ -1,0 +1,18 @@
+
+//background video
+.banner {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .banner__video {
+    transform: translateX(-18%) translateY(-20%);
+    z-index: -1;
+  }
+  
+  // recenter main content
+  .loc {
+    position: absolute;
+    left: 20px;
+    top: 175px;
+  }

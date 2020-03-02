@@ -5,38 +5,22 @@
    <div class="page-content">
     <header class="site-header">
       <a class="site-title">Abhay Gupta</a>
-      <!--
-      <a class="site-title" href="{{ site.baseurl }}/">Abhay Gupta</a>
-      {{ site.title }}-->
-    </header>
-    <header class="site-bar">
-    <!-- <div class="transbox">
-        {% include navigation.html %}
-    </div>  -->
-      {% include navigation.html %}
-    </header>
+   </header>
 
+    <header class="site-bar">
+     {% include navigation.html %}
+    </header>
 
     <div class="banner">
-      <video autoplay loop muted class="banner__video" poster="video.jpg">
-        <source src="videos/background/test2.mp4" type="video/mp4">
+      <video autoplay loop muted class="banner__video" poster="videos/background/rockets.jpg">
+        <source src="videos/background/percolation.mp4" type="video/mp4">
       </video>
     </div>
 
-
-    <style>
-      imag {
-        position: absolute;
-        left: 20px;
-        top: 175px;
-      }
-     </style>
-
- 
-    <imag>
+    <div class ="loc">
       {{ content }}
     </div>
+  </div>
     {% include ga.html %}
-    </imag>
   </body>
 </html>

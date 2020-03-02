@@ -46,15 +46,6 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting",
         "nav",
-        "images"
+        "images",
+        "background_video"
 ;
-
-.banner {
-  position: relative;
-  overflow: hidden;
-}
-
-.banner__video {
-  transform: translateX(-18%) translateY(-20%);
-  z-index: -1;
-}
