@@ -1,7 +1,5 @@
 - name: About
   link: /
-- name: Research
-  link: /research.html
 - name: Projects
   link: /projects.html
 - name: Resume
@@ -12,3 +10,6 @@
   link: /work.html
 - name: Hobbies
   link: /hobbies.html
+- name: References
+  link: /references.html
+
