@@ -11,15 +11,21 @@
      {% include navigation.html %}
     </header>
 
+      {% assign x =  site.time | date: "%s" | modulo:5 %}
+      {% assign video = "videos/background/percolation" | append: '' | append: ".mp4" %}
+      <!--{{ video }}-->
+      {{ site.time | date: "%s" | modulo:5 }}
+ 
     <div class="banner">
       <video autoplay loop muted class="banner__video">
-        <source src="videos/background/percolation.mp4" type="video/mp4">
+        <source src= {{video}} type="video/mp4">
       </video>
     </div>
 
     <div class ="loc">
 
       {{ content }}
+     
     </div>
   </div>
     {% include ga.html %}
