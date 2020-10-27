@@ -11,17 +11,18 @@
      {% include navigation.html %}
     </header>
 
-      {% assign x =  site.time | date: "%s" | modulo:5 %}
       {% assign video = "videos/background/percolation" | append: '' | append: ".mp4" %}
       <!--{{ video }}-->
-      {{ site.time | date: "%s" | modulo:5 }}
 
-      {% assign min = 65 %}
-      {% assign max = 80 %}
-      {% assign diff = max | minus: min %}
-      {% assign randomNumber = "now" | date: "%N" %}
-      {{randomNumber}}
- 
+      <p id="demo"></p>
+
+      <script>
+      document.getElementById("demo").innerHTML = Math.round(Math.random()*10%10) ;
+      </script>
+
+      {{demo}}
+
+
     <div class="banner">
       <video autoplay loop muted class="banner__video">
         <source src= {{video}} type="video/mp4">
