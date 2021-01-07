@@ -6,5 +6,5 @@ permalink: phd
 picture: /images/blog/phd.jpg
 ---
 
-The PhD retention rate is 50%. I wouldn't have guessed that I would be on the half that left the program, but I also would never have understood the satisfaction of leaving.
+I believe there is always opporunities to learn. There seems to be equal opportunity to learn in the industry as there is in academia. There are pluses/minuses to both. I tried the academic route, found out it wasn't for me, and now here I am. 
  
