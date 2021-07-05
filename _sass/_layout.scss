@@ -40,6 +40,11 @@
 .smallcap {
     text-transform: lowercase;
     font-variant: small-caps;
+    color: #ff007f;
+    font-weight: 900;
+    font-size: 30px;
+
+
 
     &::first-letter {
         text-transform: uppercase;
