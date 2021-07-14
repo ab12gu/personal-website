@@ -3,3 +3,4 @@ _site
 .jekyll-metadata
 docs/large_files
 **/.DS_Store
+.DS_Store
