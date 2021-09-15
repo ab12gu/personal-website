@@ -11,7 +11,7 @@ The framework was chosen due to its ease of integration with github; however, I 
 
 I have ran into issues with custom settings and organization due to the highly structured format of the framework. Alternatively, using a framework, such as Django, allows one to write beautiful websites mainly in python allowing more versitility, but maintaining language simplicity for quick development. 
 
-Overall, it did help me with development of my stepmom's business [masala blend](https://masalablend.com) as it is developed using the same framework, because it is build on shopify. 
+Overall, it did help me with development of my stepmom's business [masala blend](https://masalablend.com) as it is developed using the same framework, because it is built on shopify. 
 
 As with anything, there are major pros and cons. 
 
