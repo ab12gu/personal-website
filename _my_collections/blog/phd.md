@@ -6,5 +6,5 @@ permalink: phd
 picture: /images/blog/phd.jpg
 ---
 
-To be done. 
+To be done.
  
