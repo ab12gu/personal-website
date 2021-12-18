@@ -6,4 +6,4 @@ permalink: pentair
 picture: /images/work/pentair/locomotive.jpg
 ---
 
-An electrical heating solution company developing proprietary heating cables to heat both commercial and industrial equipment and locations.
+An [electrical heating solution](https://www.nvent.com/en-us/industries/infrastructure/railway/railway-heating-systems/switch-heating-systems) company developing proprietary heating cables to heat both commercial and industrial equipment and locations.
