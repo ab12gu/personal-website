@@ -8,5 +8,3 @@ picture: /images/blog/phd.jpg
 
 To be done. 
  
-
-## Citations
