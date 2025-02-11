@@ -36,6 +36,8 @@
   width: 700px;
 }
 
+.dateblock {
+}
 
 .smallcap {
     text-transform: lowercase;
@@ -121,10 +123,11 @@
 }
 
 .post-meta {
-    margin-top: 50px;
     font-size: $small-font-size;
     color: $grey-color;
     margin-bottom: 100px;
+    display: block;
+    padding-bottom: 1px; /* Small padding prevents collapse */
 }
 
 .post-content {
