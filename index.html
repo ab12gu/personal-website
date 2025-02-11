@@ -38,7 +38,41 @@ date:   2023-11-04
 	<p> My education is in both mechanical and computer engineering. This has allowed me to jump around in many different <a href="http://abgup.com/projects.html">projects</a>. </p>
 </section>
 
-<br>
+<!-- Date website last updated -->
  <div class="post-meta">
-	 <time datetime="{{ item.date | date_to_xmlschema }}" itemprop="datePublished">Last Update: {{ page.date | date: "%b %d, %Y" }}</time>
+	<!-- <time datetime="{{ item.date | date_to_xmlschema }}" itemprop="datePublished">Last Update: {{ page.date | date: "%b %d, %Y" }}</time> -->
+	<p>Last Update: <span id="lastUpdated">Fetching...</span></p>
 </div>
+
+
+<script>
+	const owner = "ab12gu"; // Replace with GitHub username
+	const repo = "personal-website";   // Replace with repository name
+	const url = `https://api.github.com/repos/${owner}/${repo}`;
+	
+	fetch(url)
+		.then(response => response.json())
+		.then(data => {
+			if (data.updated_at) {
+				//const lastUpdated = new Date(data.updated_at).toLocaleString();
+
+				// convert the date to specific format
+				const date = new Date(data.updated_at);
+				const month = date.toLocaleString("en-US", { month: "short" }); // "Nov"
+                    const day = date.getDate().toString().padStart(2, "0"); // "04"
+                    const year = date.getFullYear(); // "2023"
+                    //const hours = date.getHours().toString().padStart(2, "0"); // "18"
+                    //const minutes = date.getMinutes().toString().padStart(2, "0"); // "18"
+
+                    const formattedDate = `${month} ${day}, ${year}`;
+				//document.getElementById("lastUpdated").textContent = lastUpdated;
+				document.getElementById("lastUpdated").textContent = formattedDate;
+			} else {
+				document.getElementById("lastUpdated").textContent = "Error fetching data";
+			}
+		})
+		.catch(error => {
+			console.error("Error:", error);
+			document.getElementById("lastUpdated").textContent = "Failed to load";
+		});
+</script>
