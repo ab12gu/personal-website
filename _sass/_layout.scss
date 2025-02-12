@@ -92,7 +92,7 @@
  */
 .main {
     //display: flex;
-    padding-top: 15px; 
+    padding-top: 25px; 
     padding-right: 40px;
     padding-left: 20px;
     section + section {
@@ -155,8 +155,9 @@
  */ 
 @media (max-width: 768px) { // mobile versions
     .main{
-        padding-left: 5px;
-        padding-right: 20px;
+        padding-top: 15px; 
+        padding-left: 10px;
+        padding-right: 25px;
     }
     .headers{
         margin-top: 0px;
