@@ -8,7 +8,7 @@ layout: default
       <img class="left-img" src={{ page.picture }}>
         <li>
           <div class="headers" id="h2"><a href="{{ page.url }}">{{ page.title }}</a></div>
-          <div class="post-meta"><time datetime="{{ item.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %d, %Y" }}</time></div>
+          <div class="date-time"><time datetime="{{ item.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %d, %Y" }}</time></div>
           <p>{{ page.excerpt | markdownify }}</p> 
         </li>
       </span>

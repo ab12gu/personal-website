@@ -1,28 +1,26 @@
 <!--{{include.content}}-->
 
-<ul style="list-style-type:none;">
-  {% assign count = 0 %}
+{% assign count = 0 %}
 
-  {% assign sorted = (site.my_collections | sort: 'date') | reverse %}
-  {% for item in sorted %}
-    {% if item.relative_path contains {{include.param1}} %}
+{% assign sorted = (site.my_collections | sort: 'date') | reverse %}
+{% for item in sorted %}
+  {% if item.relative_path contains {{include.param1}} %}
 
-      {% if count == 0 %}
-        <h2 class="headers" id="center"> {{include.param2}}</h2>
-      {% endif %}
-
-      <span class="block">
-      <img class="left-img" src={{ item.picture }}>
-        <li>
-          <div class="headers" id="h2"><a href="{{ item.url }}">{{ item.title }}</a></div>
-          <div class="post-meta"><time datetime="{{ item.date | date_to_xmlschema }}" itemprop="datePublished">{{ item.date | date: "%b. %Y" }}</time></div>
-          <p>{{ item.excerpt | markdownify }}</p> 
-        </li>
-      </span>
-    {% assign count = 1 %}
-
+    {% if count == 0 %}
+      <h2 class="headers"> {{include.param2}}</h2>
     {% endif %}
-  {% endfor %}
 
-    <div class="site-bar"></div>
-</ul>
+    <!-- <span class="block"> -->
+    <div class="mobile-margins">
+      <img class="left-img" src={{ item.picture }}>
+          <div class="headers" style="text-align: left;" id="h2"><a href="{{ item.url }}">{{ item.title }}</a></div>
+          <div class="date-time"><time datetime="{{ item.date | date_to_xmlschema }}" itemprop="datePublished">{{ item.date | date: "%b. %Y" }}</time></div>
+          <p>{{ item.excerpt | markdownify }}</p> 
+    </div>
+    <!-- </span> -->
+  {% assign count = 1 %}
+
+  {% endif %}
+{% endfor %}
+
+<div class="site-bar" style="margin-bottom: 20px;"></div>

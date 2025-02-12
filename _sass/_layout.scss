@@ -33,7 +33,7 @@
   clear: left;
   display:block;
   height: 200px;
-  width: 700px;
+  width: 95%;
 }
 
 .headers {
@@ -114,10 +114,8 @@
     line-height: 1;
 }
 
-.post-meta {
+.date-time {
     font-size: $small-font-size;
-    color: $grey-color;
-    margin-bottom: 100px;
     display: block;
     padding-bottom: 1px; /* Small padding prevents collapse */
 }
@@ -161,5 +159,10 @@
     }
     .headers{
         margin-top: 0px;
+        text-align: center;
+    }
+    .mobile-margins{
+        margin-left: 10px;
+        margin-right: 25px;
     }
 }
