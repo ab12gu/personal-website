@@ -33,6 +33,8 @@ $on-laptop:        800px;
 //         padding-left: $spacing-unit / 2;
 //     }
 // }
+
+// used for phone
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;
