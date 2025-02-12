@@ -8,12 +8,12 @@
       {% if item.relative_path contains {{include.param1}} %}
   
         {% if count == 0 %}
-          <h2 class="smallcap" id="center"> {{include.param2}}</h2>
+          <h2 class="headers" id="center"> {{include.param2}}</h2>
         {% endif %}
   
         <span class="block">
         <img class="left-img" src={{ item.picture }}>
-          <li class="smallcap" id="h2"> {{ item.title }} </li>
+          <li class="headers" id="h2"> {{ item.title }} </li>
           <i>{{ item.relation }}</i>
           <br>
           <br>

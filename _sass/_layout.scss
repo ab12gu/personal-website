@@ -36,19 +36,23 @@
   width: 700px;
 }
 
-.smallcap {
+.headers {
+    text-align: center;
     text-transform: lowercase;
     font-variant: small-caps;
     color: #ff007f;
     font-weight: 900;
     font-size: 30px;
+    margin-top: 20px;
 
-
-
+    // increase size of first letter
     &::first-letter {
         text-transform: uppercase;
     }
 }
+
+
+
 #pad {
     padding-top: 20px;
     font-size: 1.5em
@@ -83,27 +87,18 @@
     box-sizing: border-box;
 }
 
-
 /**
- * Pages
+ * main text formatting
  */
-.home {
+.main {
+    //display: flex;
     padding-top: 15px; 
+    padding-right: 40px;
+    padding-left: 20px;
     section + section {
         margin-top: $spacing-unit;
     }
 }
-.post-list > li {
-    margin-bottom: $spacing-unit / 4;
-
-    @include media-query($on-palm) {
-        time {
-            display: block;
-            font-size: $small-font-size;
-        }
-    }
-}
-
 
 
 /**
@@ -151,5 +146,19 @@
     h5,
     h6 {
         font-size: 1rem;
+    }
+}
+
+
+/**
+ * Mobile Rendering
+ */ 
+@media (max-width: 768px) { // mobile versions
+    .main{
+        padding-left: 5px;
+        padding-right: 20px;
+    }
+    .headers{
+        margin-top: 0px;
     }
 }

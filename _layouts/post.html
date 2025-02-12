@@ -7,7 +7,7 @@ layout: default
       <span class="block" id="reduce_pad">
       <img class="left-img" src={{ page.picture }}>
         <li>
-          <div class="smallcap" id="h2"><a href="{{ page.url }}">{{ page.title }}</a></div>
+          <div class="headers" id="h2"><a href="{{ page.url }}">{{ page.title }}</a></div>
           <div class="post-meta"><time datetime="{{ item.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %d, %Y" }}</time></div>
           <p>{{ page.excerpt | markdownify }}</p> 
         </li>
