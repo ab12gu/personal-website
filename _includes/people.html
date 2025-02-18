@@ -1,31 +1,30 @@
 <!--{{include.content}}-->
 
-<ul style="list-style-type:none;">
-    {% assign count = 0 %}
+<div class="row">
 
-    {% assign sorted = (site.my_collections | sort: 'date') | reverse %}
-    {% for item in sorted %}
-      {% if item.relative_path contains {{include.param1}} %}
-  
-        {% if count == 0 %}
-          <h2 class="headers" id="center"> {{include.param2}}</h2>
-        {% endif %}
-  
-        <span class="block">
-        <img class="left-img" src={{ item.picture }}>
-          <li class="headers" id="h2"> {{ item.title }} </li>
-          <i>{{ item.relation }}</i>
-          <br>
-          <br>
-          <li> {{ item.company }} </li>
-          <li> {{ item.occupation }} </li>
+{% assign count = 0 %}
 
-        </span>
-      {% assign count = 1 %}
-  
-      {% endif %}
-    {% endfor %}
-  
-      <div class="site-bar"></div>
-  </ul>
-  
+{% assign sorted = (site.my_collections | sort: 'date') | reverse %}
+{% for item in sorted %}
+  {% if item.relative_path contains {{include.param1}} %}
+
+    {% if count == 0 %}
+      <h2 class="headers" id="center"> {{include.param2}}</h2>
+    {% endif %}
+
+    <div class="column">
+    <img class="left-img" src={{ item.picture }}>
+      <div class="headers" id="h2"> {{ item.title }} </div>
+      <div>{{ item.relation }}</div>
+      <br>
+      <div> {{ item.company }} </div>
+      <div> {{ item.occupation }} </div>
+    </div>
+
+  {% assign count = 1 %}
+
+  {% endif %}
+{% endfor %}
+</div>
+
+  <div class="site-bar"></div>
