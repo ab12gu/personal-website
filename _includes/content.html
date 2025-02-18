@@ -12,7 +12,11 @@
     {% endif %}
 
     <div class="column">
-      <img class="left-img" src={{ item.picture }}>
+      <a href="{{ item.url }}">
+        <img class="left-img" src={{ item.picture }}>
+      </a>
+      <div class="headers" style="text-align: left;" id="h2"><a href="{{ item.url }}">{{ item.title }}</a></div>
+ 
     </div>
 
   {% assign count = 1 %}
@@ -32,14 +36,14 @@
       <h2 class="headers"> {{include.param2}}</h2>
     {% endif %}
 
--->
+  -->
     <!-- <span class="block"> -->
 <!--
     <div class="mobile-margins">
-      <img class="left-img" src={{ item.picture }}>
-          <div class="headers" style="text-align: left;" id="h2"><a href="{{ item.url }}">{{ item.title }}</a></div>
+           <div class="headers" style="text-align: left;" id="h2"><a href="{{ item.url }}">{{ item.title }}</a></div>
           <div class="date-time"><time datetime="{{ item.date | date_to_xmlschema }}" itemprop="datePublished">{{ item.date | date: "%b. %Y" }}</time></div>
-          <p>{{ item.excerpt | markdownify }}</p> 
+      <img class="left-img" src={{ item.picture }}>
+         <p>{{ item.excerpt | markdownify }}</p> 
     </div>
 
 -->

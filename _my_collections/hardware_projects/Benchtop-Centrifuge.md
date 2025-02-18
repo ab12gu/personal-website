@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Benchtop Centrifuge for Materials Science"
+title:  "Benchtop Centrifuge"
 date:   2017-06-13 19:02:34 +0800
 permalink: Centrifuge
 picture: /images/projects/benchtop_centrifuge.png
