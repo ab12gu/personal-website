@@ -15,8 +15,11 @@
       <a href="{{ item.url }}">
         <img class="left-img" src={{ item.picture }}>
       </a>
-      <div class="headers" id="h2"><a href="{{ item.url }}">{{ item.title }}</a></div>
- 
+      <div class="headers" id="h2">
+        <div class="photo-titles">
+          <a href="{{ item.url }}">{{ item.title }}</a>
+        </div>
+      </div>
     </div>
 
   {% assign count = 1 %}

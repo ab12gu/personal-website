@@ -45,10 +45,18 @@
     font-size: 30px;
     margin-top: 20px;
 
+
     // increase size of first letter
     &::first-letter {
         text-transform: uppercase;
     }
+}
+
+.photo-titles {
+    font-weight:50; 
+    margin-top: 225px;
+    padding-right: 30px; 
+    text-align:center;
 }
 
 
@@ -160,5 +168,11 @@
     .mobile-margins{
         margin-left: 10px;
         margin-right: 25px;
+    }
+    .photo-titles{
+        padding-right: 0;
+    }
+    .projects-text-mobile{
+        padding-top: 250px;
     }
 }

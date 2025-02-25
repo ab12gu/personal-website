@@ -12,7 +12,9 @@
 
     <div class="mobile-margins"> 
       <img class="left-img" src={{ item.picture }}>
+        <div class="projects-text-mobile">
           {{ item.title }}
+        </div>
           <div class="date-time"><time datetime="{{ item.date | date_to_xmlschema }}" itemprop="datePublished">{{ item.date | date: "%b, %Y" }}</time></div>
           <br>
             {{item.authors}} 
