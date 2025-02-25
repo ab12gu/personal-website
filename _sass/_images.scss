@@ -1,8 +1,8 @@
 .left-img {
   float: left;
-  padding-right: 10px;
-  width: 220px;
-  height: 220px;
+  //padding-right: 10px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
 }
 
@@ -24,11 +24,10 @@
       height: auto;
   }
   .left-img {
-    float: left;
-    padding-right: 20%;
-    padding-left: 20%;
-    width: 60%;
-    height: width;
+    padding-left: 16vw;
+    padding-right: 16vw;
+    width: 60vw;
+    height: 60vw;
     object-fit: cover;
 }
 
