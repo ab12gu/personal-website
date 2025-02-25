@@ -2,16 +2,24 @@
 layout: default
 ---
 
-<br>
-<ul style="list-style-type:none;">
-      <span class="block" id="reduce_pad">
-      <img class="left-img" src={{ page.picture }}>
-        <li>
-          <div class="headers" id="h2"><a href="{{ page.url }}">{{ page.title }}</a></div>
-          <div class="date-time"><time datetime="{{ item.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %d, %Y" }}</time></div>
-          <p>{{ page.excerpt | markdownify }}</p> 
-        </li>
-      </span>
-</ul>
+<h2 class="headers">
+  <!-- <a href="{{ page.url }}"> -->
+    {{ page.title }}
+</h2>
 
-{{ page.content | remove: page.excerpt }}
+<section class="main" >
+  <img class="left-img" style="padding-right: 10px; padding-bottom:30px;" src={{ page.picture }}>
+
+    <p>
+      {{ page.excerpt | markdownify }}
+    </p> 
+
+  {{ page.content | remove: page.excerpt }}
+
+  <div class="date-time">
+    <time datetime="{{ item.date | date_to_xmlschema }}" itemprop="datePublished">
+      {{ page.date | date: "%b %d, %Y" }}
+    </time>
+  </div>
+
+</section>
