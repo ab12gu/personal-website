@@ -11,8 +11,10 @@
     text-align: left;
     padding: 1rem 0;
 }
+
 //needs to move
 .site-bar {
+    width: 95%; /* Adjust as needed */
     border-bottom: 1px solid $grey-color-light;
 }
 
@@ -152,6 +154,9 @@
     }
 }
 
+.projects-text{
+    padding-left: 220px;
+}
 
 /**
  * Mobile Rendering
@@ -173,7 +178,11 @@
     .photo-titles{
         padding-right: 0;
     }
-    .projects-text-mobile{
+    .projects-text{
+        padding-left: 0px;
         padding-top: 250px;
+    }
+    .site-bar {
+        width: 95%; /* Adjust as needed */
     }
 }
