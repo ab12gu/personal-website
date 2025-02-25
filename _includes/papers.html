@@ -10,7 +10,6 @@
       <h2 class="headers"> {{include.param2}}</h2>
     {% endif %}
 
-    <div class="mobile-margins"> 
       <img class="left-img" src={{ item.picture }}>
         <div class="projects-text">
           {{ item.title }}
@@ -22,7 +21,6 @@
           <a href="{{item.link}}">PDF</a>
           <p>{{ item.excerpt | markdownify }}</p> 
         </div>
-    </div>
   {% assign count = 1 %}
 
   {% endif %}
