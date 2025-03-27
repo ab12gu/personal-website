@@ -2,8 +2,8 @@
 
 <div class="row">
 {% assign count = 0 %}
-
 {% assign sorted = (site.my_collections | sort: 'date') | reverse %}
+
 {% for item in sorted %}
   {% if item.relative_path contains {{include.param1}} %}
 
@@ -12,6 +12,9 @@
         {{include.param2}}
       </h2>
     {% endif %}
+
+
+
 
     <div class="column" >
       <a href="{{ item.url }}">
