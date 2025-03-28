@@ -14,8 +14,9 @@ permalink: none
 google_analytics:
 disqus_shortname:
 
-# Personal/Academic Project Folder
+# All posts 
+# NOTE: real posts need date in filename so use collections instead
 collections:
-  my_collections:
+  content:
     output: true
     permalink: /:name 

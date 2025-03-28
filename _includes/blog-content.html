@@ -2,7 +2,7 @@
 
 <div class="row">
 {% assign count = 0 %}
-{% assign sorted = (site.my_collections | sort: 'date') | reverse %}
+{% assign sorted = (site.content | sort: 'date') | reverse %}
 
 {% for item in sorted %}
   {% if item.relative_path contains {{include.param1}} %}
@@ -12,8 +12,6 @@
         {{include.param2}}
       </h2>
     {% endif %}
-
-
 
 
     <div class="column" >
@@ -32,33 +30,5 @@
   {% endif %}
 {% endfor %}
 </div>
-
-
-{% assign count = 0 %}
-
-{% assign sorted = (site.my_collections | sort: 'date') | reverse %}
-{% for item in sorted %}
-  {% if item.relative_path contains {{include.param1}} %}
-<!--
-    {% if count == 0 %}
-      <h2 class="headers"> {{include.param2}}</h2>
-    {% endif %}
-
-  -->
-    <!-- <span class="block"> -->
-<!--
-    <div class="mobile-margins">
-           <div class="headers" style="text-align: left;" id="h2"><a href="{{ item.url }}">{{ item.title }}</a></div>
-          <div class="date-time"><time datetime="{{ item.date | date_to_xmlschema }}" itemprop="datePublished">{{ item.date | date: "%b. %Y" }}</time></div>
-      <img class="left-img" src={{ item.picture }}>
-         <p>{{ item.excerpt | markdownify }}</p> 
-    </div>
-
--->
-    <!-- </span> -->
-  {% assign count = 1 %}
-
-  {% endif %}
-{% endfor %}
 
 <div class="site-bar"></div>
