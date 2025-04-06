@@ -2,17 +2,16 @@
 layout: default
 ---
 
-<h2 class="headers">
+<h2 class="headers" id="center">   
   <!-- <a href="{{ page.url }}"> -->
     {{ page.title }}
 </h2>
 
 <section class="main" >
-  <img class="left-img" style="padding-right: 10px; padding-bottom:30px;" src={{ page.picture }}>
 
-    <p>
-      {{ page.excerpt | markdownify }}
-    </p> 
+  <img class="post-img" src={{ page.picture }}>
+
+  {{ page.excerpt | markdownify }}
 
   {{ page.content | remove: page.excerpt }}
 

@@ -6,5 +6,6 @@ permalink: phd
 picture: /images/blog/phd.jpg
 ---
 
-To be done.
- 
+This article doesn't really add much to who am I currently, so I never really added much information. 
+
+I could chat about it in person if you are truly interested though!
