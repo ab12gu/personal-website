@@ -2,8 +2,8 @@
 
 <div class="row">
 {% assign count = 0 %}
-{% assign sorted = (site.content | sort: 'date') | reverse %}
 
+{% assign sorted = (site.content | sort: 'date') | reverse %}
 {% for item in sorted %}
   {% if item.relative_path contains {{include.param1}} %}
 
