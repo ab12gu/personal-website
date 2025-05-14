@@ -21,6 +21,15 @@ As with anything, there are major pros and cons.
 Let me know if you have any recommendations!
 
 
+## References
+
+Originally, made from [https://github.com/ab12gu/slim?tab=readme-ov-file](https://github.com/syaning/slim)
+- I believe the commit was forked from - b7680a01371cf7633b7ce959ac348645d3f95a02
+- I should somehow change my repo to have it be a fork... maybe someday...
+
+
+But I have diverged greatly from this over several years...
+
 
 ### Theme License
 
